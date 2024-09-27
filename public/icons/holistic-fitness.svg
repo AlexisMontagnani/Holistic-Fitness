@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 283.46 283.46">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: .25em;
+      }
+
+      .cls-2 {
+        letter-spacing: .25em;
+      }
+
+      .cls-3 {
+        letter-spacing: .24em;
+      }
+
+      .cls-4 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+
+      .cls-5 {
+        fill: #fabb5b;
+      }
+
+      .cls-5, .cls-6 {
+        stroke-width: 0px;
+      }
+
+      .cls-7 {
+        font-family: Barlow-Bold, Barlow;
+        font-size: 13.79px;
+        font-weight: 700;
+      }
+
+      .cls-7, .cls-6 {
+        fill: #fff;
+      }
+
+      .cls-8 {
+        letter-spacing: .24em;
+      }
+    </style>
+  </defs>
+  <g>
+    <polygon class="cls-5" points="94.07 190.51 84.41 182.96 84.41 77.46 93.39 74.98 139.16 151.67 184.26 75.01 193.26 77.46 193.26 183.71 183.59 190.78 183.59 95.2 143.36 163.6 135.04 163.63 94.07 94.98 94.07 190.51"/>
+    <polygon class="cls-6" points="107.16 200.95 99 194.51 134.56 75.6 143.83 75.62 178.71 194.62 170.41 200.67 139.15 94 107.16 200.95"/>
+  </g>
+  <polygon class="cls-4" points="138.83 46.47 73.26 69.99 73.43 178.17 138.85 224.46 204.1 178 203.93 69.84 138.83 46.47"/>
+  <text class="cls-7" transform="translate(62.94 193.04) rotate(34.88)"><tspan class="cls-1" x="0" y="0">HOLI</tspan><tspan class="cls-8" x="42.54" y="0">S</tspan><tspan class="cls-1" x="54.09" y="0">TIC</tspan></text>
+  <text class="cls-7" transform="translate(151.95 236.99) rotate(-36.08)"><tspan class="cls-2" x="0" y="0">FIT</tspan><tspan class="cls-3" x="29.77" y="0">N</tspan><tspan class="cls-2" x="42.31" y="0">ESS</tspan></text>
+</svg>

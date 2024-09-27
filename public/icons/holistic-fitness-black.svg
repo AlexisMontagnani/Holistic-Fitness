@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 283.46 283.46">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: .25em;
+      }
+
+      .cls-2 {
+        letter-spacing: .25em;
+      }
+
+      .cls-3 {
+        letter-spacing: .24em;
+      }
+
+      .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-4, .cls-5 {
+        fill: #000;
+      }
+
+      .cls-5 {
+        font-family: Barlow-Bold, Barlow;
+        font-size: 13.79px;
+        font-weight: 700;
+      }
+
+      .cls-6 {
+        letter-spacing: .24em;
+      }
+
+      .cls-7 {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <g>
+    <polygon class="cls-4" points="102.28 197.8 92.62 190.24 92.62 84.75 101.6 82.27 147.37 158.96 192.47 82.3 201.47 84.75 201.47 191 191.81 198.07 191.81 102.49 151.57 170.89 143.26 170.91 102.28 102.27 102.28 197.8"/>
+    <polygon class="cls-4" points="115.37 208.24 107.21 201.8 142.78 82.89 152.04 82.91 186.92 201.91 178.62 207.95 147.36 101.29 115.37 208.24"/>
+  </g>
+  <polygon class="cls-7" points="147.04 53.76 81.47 77.28 81.65 185.46 147.07 231.75 212.31 185.29 212.14 77.13 147.04 53.76"/>
+  <text class="cls-5" transform="translate(71.15 200.33) rotate(34.88)"><tspan class="cls-1" x="0" y="0">HOLI</tspan><tspan class="cls-6" x="42.54" y="0">S</tspan><tspan class="cls-1" x="54.09" y="0">TIC</tspan></text>
+  <text class="cls-5" transform="translate(160.16 244.28) rotate(-36.08)"><tspan class="cls-2" x="0" y="0">FIT</tspan><tspan class="cls-3" x="29.77" y="0">N</tspan><tspan class="cls-2" x="42.31" y="0">ESS</tspan></text>
+</svg>

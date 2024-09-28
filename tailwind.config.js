@@ -10,7 +10,13 @@ module.exports = {
       colors: {
       "primary": "#fabc5b",
       "blackContrast": "#020203",
-      "WhiteContrast": "#FFFFFF",
+      "whiteContrast": "#FFFFFF",
+    },
+    backgroundImage: {
+      'profile': "url('/images/Alexis.jpg')",
+      },
+      boxShadow: {
+        'inner-2xl': 'inset 0 0 25px 15px rgba(0, 0, 0, 0.25)',
       },
     },
   },

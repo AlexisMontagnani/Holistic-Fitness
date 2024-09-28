@@ -1,7 +1,8 @@
+import Homepage from "./src/components/Main/Homepage/Home";
 export default function Home() {
   return (
     <div>
-      {/* <h1>test</h1> */}
+      <Homepage></Homepage>
     </div>
   );
 }

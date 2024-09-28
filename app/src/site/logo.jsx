@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { FaStar } from "react-icons/fa";
 import { IoClose, IoMenu } from "react-icons/io5";
 import facebookLogo from "../../../public/icons/facebook.svg";
 import holisticFitnessLogoBlack from "../../../public/icons/holistic-fitness-black.svg";
@@ -84,5 +85,13 @@ const CloseMenuLogo = ({size, color, onClick, expanded}) => {
     </button>
   );
 }
-export { BurgerMenuLogo, CloseMenuLogo, FacebookLogo, HolisticFitnessLogo, HolisticFitnessLogoBlack, InstagramLogo };
+
+const StarIcon = ({size, color}) => {
+  return (
+  
+    <FaStar  size={size} color={color}/>
+  
+  );
+}
+export { BurgerMenuLogo, CloseMenuLogo, FacebookLogo, HolisticFitnessLogo, HolisticFitnessLogoBlack, InstagramLogo, StarIcon };
 

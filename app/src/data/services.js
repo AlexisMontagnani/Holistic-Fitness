@@ -1,5 +1,6 @@
 const services = [
   {
+    id: 1,
     title: "Perte de poids",
     category: "Haltéro, perte de poids, prise de masse",
     objectives: [
@@ -15,6 +16,7 @@ const services = [
     ],
   },
   {
+    id: 2,
     title: "Perte de poids",
     category: "Haltéro, perte de poids, prise de masse",
     objectives: [
@@ -30,6 +32,7 @@ const services = [
     ],
   },
   {
+    id: 3,
     title: "Perte de poids",
     category: "Haltéro, perte de poids, prise de masse",
     objectives: [

@@ -3,7 +3,7 @@ import { CloseMenuLogo, FacebookLogo, HolisticFitnessLogoBlack, InstagramLogo } 
 export default function NavigationBarLateralMenu({activeMenu, handleClickMenu, navigationLinks}) {
   return (
     <div
-    className={`fixed right-0 top-0 z-50 flex flex-col p-4 justify-between bg-primary text-blackContrast w-[60%] h-lvh transition-transform duration-200 ease-in-out ${
+    className={`fixed right-0 top-0 z-50 flex flex-col p-4 justify-between bg-primary text-blackContrast w-[50%] sm:w-[30%] h-lvh transition-transform duration-200 ease-in-out ${
       activeMenu ? "translate-x-0" : "translate-x-full"
     }`}
   >

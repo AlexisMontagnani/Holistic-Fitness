@@ -8,90 +8,104 @@ import holisticFitnessLogo from "../../../public/icons/holistic-fitness.svg";
 import instagramLogo from "../../../public/icons/instagram.svg";
 import { homeLink } from "../site/navigationLinks";
 import socialLinks from "./socialLinks";
-const HolisticFitnessLogo = ({width, height}) => {
+const HolisticFitnessLogo = ({ width, height }) => {
   return (
-    <Link href={homeLink.url} aria-label="Bouton Accueil">
-    <Image
-      src={holisticFitnessLogo}
-
-      alt="Logo Alexis Montagnani - Holistic Fitness"
-      width={width}
-      height={height}
-    ></Image>
-  </Link>
+    <Link href={homeLink.url}  aria-label={homeLink.aria}>
+      <Image
+        src={holisticFitnessLogo}
+        alt="Logo Alexis Montagnani - Holistic Fitness"
+        width={width}
+        height={height}
+        
+      ></Image>
+    </Link>
   );
 };
-const HolisticFitnessLogoBlack = ({width, height}) => {
+const HolisticFitnessLogoBlack = ({ width, height }) => {
   return (
-    <Link href={homeLink.url} aria-label="Bouton Accueil">
-    <Image
-      src={holisticFitnessLogoBlack}
-
-      alt="Logo Alexis Montagnani - Holistic Fitness"
-      width={width}
-      height={height}
-    ></Image>
-  </Link>
-  );
-};
-
-const FacebookLogo = ({width, height}) => {
-  return (
-    <Link href={socialLinks.facebook.link} aria-label={socialLinks.facebook.alt} target="_blank" className="p-2">
-    <Image
-      src={facebookLogo}
-      alt="Logo Facebook"
-      width={width}
-      height={height}
-    ></Image>
+    <Link href={homeLink.url}  aria-label={homeLink.aria}>
+      <Image
+        src={holisticFitnessLogoBlack}
+        alt="Logo Alexis Montagnani - Holistic Fitness"
+        width={width}
+        height={height}
+       
+      ></Image>
     </Link>
   );
 };
 
-const InstagramLogo = ({width, height}) => {
+const FacebookLogo = ({ width, height }) => {
   return (
-    <Link href={socialLinks.instagram.link} aria-label={socialLinks.instagram.alt} target="_blank" className="p-2">
-    <Image
-      src={instagramLogo}
-      alt="Logo Instagram"
-      width={width}
-      height={height}
-    ></Image>
+    <Link
+      href={socialLinks.facebook.link}
+      aria-label={socialLinks.facebook.aria}
+      target="_blank"
+      className="p-2"
+    >
+      <Image
+        src={facebookLogo}
+        alt={socialLinks.facebook.alt}
+        width={width}
+        height={height}
+      ></Image>
     </Link>
   );
 };
 
-const BurgerMenuLogo = ({size, color, onClick, expanded}) => {
+const InstagramLogo = ({ width, height }) => {
   return (
-    <button
-    onClick={onClick}
-    aria-label="Ouvrir le menu"
-    aria-expanded={expanded}
-     className="lg:hidden"
-  >
-    <IoMenu  size={size} color={color}/>
-  </button>
+    <Link
+      href={socialLinks.instagram.link}
+      aria-label={socialLinks.instagram.aria}
+      target="_blank"
+      className="p-2"
+    >
+      <Image
+        src={instagramLogo}
+        alt={socialLinks.instagram.alt}
+        width={width}
+        height={height}
+      ></Image>
+    </Link>
   );
 };
 
-const CloseMenuLogo = ({size, color, onClick, expanded}) => {
+const BurgerMenuLogo = ({ size, color, onClick, expanded }) => {
   return (
     <button
-    onClick={onClick}
-    aria-label="Fermer le menu"
-    aria-expanded={expanded}
-  >
-    <IoClose  size={size} color={color}/>
+      onClick={onClick}
+      aria-label="Ouvrir le menu"
+      aria-expanded={expanded}
+      className="lg:hidden"
+    >
+      <IoMenu size={size} color={color} />
     </button>
   );
-}
+};
 
-const StarIcon = ({size, color}) => {
+const CloseMenuLogo = ({ size, color, onClick, expanded }) => {
   return (
-  
-    <FaStar  size={size} color={color}/>
-  
+    <button
+      onClick={onClick}
+      aria-label="Fermer le menu"
+      aria-expanded={expanded}
+    >
+      <IoClose size={size} color={color} />
+    </button>
   );
-}
-export { BurgerMenuLogo, CloseMenuLogo, FacebookLogo, HolisticFitnessLogo, HolisticFitnessLogoBlack, InstagramLogo, StarIcon };
+};
+
+const StarIcon = ({ size, color }) => {
+  return <FaStar size={size} color={color} />;
+};
+export {
+  BurgerMenuLogo,
+  CloseMenuLogo,
+  FacebookLogo,
+  HolisticFitnessLogo,
+  HolisticFitnessLogoBlack,
+  InstagramLogo,
+  StarIcon
+};
 

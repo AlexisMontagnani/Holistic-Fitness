@@ -1,5 +1,5 @@
-import MDHomeProfile from "./MD-Home-profile";
-import SDHomeProfile from "./SD-Home-profile";
+import MDHomeProfile from "./Home-profile-MaxDevice";
+import SDHomeProfile from "./Home-profile-SmallDivice";
 export default function Home() {
   return (
     <section>

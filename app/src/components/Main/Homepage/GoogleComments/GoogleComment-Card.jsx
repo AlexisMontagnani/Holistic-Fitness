@@ -1,6 +1,6 @@
 import { StarIcon } from "../../../../site/logo";
 
-export default function CommentGoogleCard({firstname, lastname, commentary, visitDate}) {
+export default function GoogleCommentCard({firstname, lastname, commentary, visitDate}) {
   return (
     <div className="flex flex-col gap-4 bg-[#fffdf6] p-4 text-blackContrast w-full">
         <div className="flex flex-col gap-2">

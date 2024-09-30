@@ -1,6 +1,6 @@
 import googleComments from "../../../../data/googleComments";
-import CommentGoogleCard from "./CommentGoogle-Card";
-export default function CommentGoogle() {
+import CommentGoogleCard from "./GoogleComment-Card";
+export default function GoogleComments() {
   return (
     <div className="flex flex-col gap-4">
       <h2 className="text-lg font-semibold">Ils m&apos;`ont fait confiance et ont donné leur avis:</h2>

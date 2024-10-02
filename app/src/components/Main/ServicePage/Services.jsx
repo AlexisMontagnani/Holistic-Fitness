@@ -40,7 +40,7 @@ export default function Services() {
           />
         )}
       </section>
-     <BackgroundBlur open={openModale} />
+      <BackgroundBlur open={openModale} />
     </section>
   );
 }

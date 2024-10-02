@@ -6,8 +6,8 @@ export default function NavigationBar() {
 
   return (
     <>
-      <nav className="hidden lg:flex justify-between flex-col items-center p-4 mb-8">
-        <HolisticFitnessLogo width={80} height={80} />
+      <nav className="hidden lg:flex gap-2 justify-between flex-col items-center p-8 mb-8">
+        <HolisticFitnessLogo width={70} height={70} />
         <NavigationBarClassicMenu />
       </nav>
     </>

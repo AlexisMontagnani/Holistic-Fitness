@@ -15,10 +15,15 @@ const navigationLinks = [
     aria: "Lien vers la page des questions fréquentes",
   },
   {
+    name: "Qui suis-je ?",
+    url: "/about",
+    aria: "Lien vers la page de contact",
+  },
+  {
     name: "Contact",
     url: "/contact",
     aria: "Lien vers la page de contact",
-  }
+  },
 ]
 
 const homeLink = {

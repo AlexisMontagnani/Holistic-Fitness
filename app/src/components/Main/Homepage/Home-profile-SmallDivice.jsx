@@ -11,7 +11,7 @@ export default function HomePprofileSmallDevice() {
           <div className="w-40 h-40 m-auto  rounded-full bo bg-profile bg-cover shadow-inner-2xl shadow-blackContrast mb-8 sm:w-60 sm:h-60"></div>
           <div  className="sm:w-2/4">
 
-          <TitleAndSubTitleHomePage title={" Alexis Montagnani - Coach sportif"} subTitle={"Apprenez à vous entraîner comme vos héros et devenez-en un."}/>
+          <TitleAndSubTitleHomePage title={" Alexis Montagnani - Holistic Fitness"} subTitle={"Apprenez à vous entraîner comme vos héros et devenez-en un."}/>
             <NewButton
               href={"/service"}
               ariaLabel={"Test"}

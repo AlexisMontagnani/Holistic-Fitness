@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { CgArrowRightO } from "react-icons/cg";
 import { FaStar } from "react-icons/fa";
 import { GiMuscleUp } from "react-icons/gi";
 import { IoClose, IoMenu } from "react-icons/io5";
@@ -102,12 +103,21 @@ const StarIcon = ({ size, color }) => {
 const MuscleIcon = ({ size, color }) => {
   return <GiMuscleUp size={size} color={color} />;
 };
+
+const ArrowRightIcon = ({ size, color, handleClick }) => {
+  return (<button onClick={handleClick}>
+    <CgArrowRightO size={size} color={color} />
+    </button>);
+};
 export {
+  ArrowRightIcon,
   BurgerMenuLogo,
   CloseMenuLogo,
   FacebookLogo,
   HolisticFitnessLogo,
   HolisticFitnessLogoBlack,
-  InstagramLogo, MuscleIcon, StarIcon
+  InstagramLogo,
+  MuscleIcon,
+  StarIcon
 };
 

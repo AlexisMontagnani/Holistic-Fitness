@@ -9,7 +9,7 @@ export default function ServiceModale({
 }) {
   return (
     <div className="fixed inset-0 flex items-center justify-center z-40">
-      <div className="flex flex-col gap-8 w-full h-lvh sm:w-[80%] sm:h-[80%] sm:border sm:border-primary sm:rounded-xl bg-[#100901] text-white  p-4 overflow-y-auto max-h-full">
+      <div className="flex flex-col gap-8 w-full h-lvh sm:w-[80%] sm:h-[80%] sm:border sm:border-primary sm:rounded-xl bg-[#100901] text-white  p-4 lg:p-8 2xl:p-12 overflow-y-auto max-h-full">
         <div className="text-end">
           <CloseMenuLogo
             size={40}

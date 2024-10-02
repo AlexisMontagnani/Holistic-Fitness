@@ -1,8 +1,8 @@
 "use client";
 import { useState } from "react";
 import services from "../../../data/services";
+import BackgroundBlur from "../../UI/BackgroundBlur";
 import TitleAndSubTitleOrtherPage from "../../UI/TitleAndSubTitle-OrtherPage";
-import BackgroundBlur from "../../UX/BackgroundBlur";
 import ServiceCard from "./Service-Card";
 import ServiceModale from "./Service-Modale";
 export default function Services() {

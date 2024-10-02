@@ -2,7 +2,7 @@
 import { navigationLinks } from "@/app/src/site/navigationLinks";
 import { useState } from "react";
 import { BurgerMenuLogo, HolisticFitnessLogo } from "../../../site/logo";
-import BackgroundBlur from "../../UX/BackgroundBlur";
+import BackgroundBlur from "../../UI/BackgroundBlur";
 import NavigationBarLateralMenu from "./NavigationBar-SmallDevice-LateralMenu";
 export default function NavigationBarSmallDevice() {
   const [activeMenu, setActiveMenu] = useState(false);

@@ -2,6 +2,7 @@
 import { useState } from "react";
 import services from "../../../data/services";
 import TitleAndSubTitleOrtherPage from "../../UI/TitleAndSubTitle-OrtherPage";
+import BackgroundBlur from "../../UX/BackgroundBlur";
 import ServiceCard from "./Service-Card";
 import ServiceModale from "./Service-Modale";
 export default function Services() {
@@ -15,7 +16,7 @@ export default function Services() {
     setOpenModale(!openModale);
   };
   return (
-    <section className="p-4 xl:w-4/5 m-auto">
+    <section className="p-4 xl:w-4/5 mx-auto mb-10">
       <TitleAndSubTitleOrtherPage
         title={"Les services proposés"}
         subTitle={
@@ -39,6 +40,7 @@ export default function Services() {
           />
         )}
       </section>
+     <BackgroundBlur open={openModale} />
     </section>
   );
 }

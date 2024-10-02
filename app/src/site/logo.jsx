@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { FaStar } from "react-icons/fa";
+import { GiMuscleUp } from "react-icons/gi";
 import { IoClose, IoMenu } from "react-icons/io5";
 import facebookLogo from "../../../public/icons/facebook.svg";
 import holisticFitnessLogoBlack from "../../../public/icons/holistic-fitness-black.svg";
@@ -10,26 +11,24 @@ import { homeLink } from "../site/navigationLinks";
 import socialLinks from "./socialLinks";
 const HolisticFitnessLogo = ({ width, height }) => {
   return (
-    <Link href={homeLink.url}  aria-label={homeLink.aria}>
+    <Link href={homeLink.url} aria-label={homeLink.aria}>
       <Image
         src={holisticFitnessLogo}
         alt="Logo Alexis Montagnani - Holistic Fitness"
         width={width}
         height={height}
-        
       ></Image>
     </Link>
   );
 };
 const HolisticFitnessLogoBlack = ({ width, height }) => {
   return (
-    <Link href={homeLink.url}  aria-label={homeLink.aria}>
+    <Link href={homeLink.url} aria-label={homeLink.aria}>
       <Image
         src={holisticFitnessLogoBlack}
         alt="Logo Alexis Montagnani - Holistic Fitness"
         width={width}
         height={height}
-       
       ></Image>
     </Link>
   );
@@ -99,13 +98,16 @@ const CloseMenuLogo = ({ size, color, onClick, expanded }) => {
 const StarIcon = ({ size, color }) => {
   return <FaStar size={size} color={color} />;
 };
+
+const MuscleIcon = ({ size, color }) => {
+  return <GiMuscleUp size={size} color={color} />;
+};
 export {
   BurgerMenuLogo,
   CloseMenuLogo,
   FacebookLogo,
   HolisticFitnessLogo,
   HolisticFitnessLogoBlack,
-  InstagramLogo,
-  StarIcon
+  InstagramLogo, MuscleIcon, StarIcon
 };
 

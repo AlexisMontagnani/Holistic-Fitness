@@ -8,8 +8,11 @@ export default function IndexModale({
 }) {
   return (
     <div className="fixed inset-0 flex items-center justify-center z-40">
-      <div className="flex flex-col gap-8 w-full h-lvh sm:w-[80%] sm:h-[80%] sm:border sm:border-primary sm:rounded-xl bg-[#100901] text-white  p-4 lg:p-8 2xl:p-12 overflow-y-auto max-h-full">
-        <div className="text-end">
+      <div className="relative flex flex-col gap-8 w-full h-lvh sm:w-[80%] sm:h-[80%] sm:border sm:border-primary sm:rounded-xl bg-[#100901] text-white  p-4 lg:p-8 2xl:p-12 overflow-y-auto max-h-full">
+        <div className="flex justify-between">
+          <h1 className="font-bold uppercase text-2xl text-center">
+            Pour en savoir plus
+          </h1>
           <CloseMenuLogo
             size={40}
             color={"#FFF"}
@@ -17,10 +20,6 @@ export default function IndexModale({
             expanded={openModale}
           />
         </div>
-
-        <h1 className="font-bold uppercase text-2xl text-center">
-          Pour en savoir plus
-        </h1>
 
         <div className="w-full mb-2">
           <iframe

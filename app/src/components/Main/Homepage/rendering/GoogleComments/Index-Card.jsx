@@ -1,23 +1,23 @@
 import { StarIcon } from "../../../../UI/Icons";
 
-export default function IndexCard({firstname, lastname, commentary, visitDate}) {
+export default function IndexCard({ card }) {
   return (
     <div className="flex flex-col gap-4 bg-[#fffdf6] p-4 text-blackContrast w-full rounded-xl">
-        <div className="flex flex-col gap-2">
+      <div className="flex flex-col gap-2">
+        <h2 className="font-semibold">
+          {card.firstname} {card.lastname}
+        </h2>
+        <p className="font-light text-sm">Visite: {card.visitDate}</p>
+        <div className="flex gap-2">
 
-        <h2 className="font-semibold">{firstname} {lastname}</h2>
-        <p className="font-light text-sm">Visite: {visitDate}</p>
-        <div className="flex gap-3">
-          {/* ajouter les etoiles dynamiques */}
-          <StarIcon size={20} color={"#fabc5b"}/>
-          <StarIcon size={20} color={"#fabc5b"}/>
-          <StarIcon size={20} color={"#fabc5b"}/>
-          <StarIcon size={20} color={"#fabc5b"}/>
-          <StarIcon size={20} color={"#fabc5b"}/>
+          {/* Implement the StarIcon component within the card to display dynamic ratings. */}
+          {Array.from({ length: card.stars }, (_, index) => (
+            <StarIcon key={index} size={20} color={"#fabc5b"} />
+          ))}
         </div>
-        </div>
+      </div>
 
-        <p className="text-justify text-sm">{commentary}</p>
+      <p className="text-justify text-sm">{card.commentary}</p>
     </div>
-  )
+  );
 }

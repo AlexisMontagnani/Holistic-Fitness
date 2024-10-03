@@ -5,7 +5,7 @@ export default function IndexPresentation({ specialty }) {
     <section className="flex w-full sm:flex-col-reverse lg:flex-row gap-20 items-center mb-10">
       <div className="flex flex-col gap-6 lg:w-[60%]">
         <h3 className="text-xl text-primary font-bold">
-          Au dela d&apos;un métier, une passion.
+        Au-delà d&apos;un métier, une passion.
         </h3>
 
         <p className="text-justify">

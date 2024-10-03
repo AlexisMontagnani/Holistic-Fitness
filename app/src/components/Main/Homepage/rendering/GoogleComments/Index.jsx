@@ -7,13 +7,10 @@ export default function Index() {
 
       <div className="flex flex-col gap-4 lg:flex-row">
         
-      {googleComments.map((comment) => (
+      {googleComments.map((commentary) => (
         <CommentGoogleCard
-          key={comment.id}
-          firstname={comment.firstname}
-          lastname={comment.lastname}
-          commentary={comment.commentary}
-          visitDate={comment.visitDate}
+          key={commentary.id}
+          card={commentary}
         />
       ))}
       </div>

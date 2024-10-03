@@ -1,4 +1,4 @@
-import Services from "../src/components/Main/ServicePage/logic/Index-Logic";
+import Services from "../src/components/Main/ServicesPage/logic/Index-Logic";
 
 export const metadata = {
   title: "Mes services - Alexis Montagnani",

@@ -1,4 +1,4 @@
-import Questions from "../src/components/Main/FAQ/logic/Index-Logic";
+import Questions from "../src/components/Main/FaqPage/logic/Index-Logic";
 export const metadata = {
   title: "F.A.Q - Alexis Montagnani",
   description:

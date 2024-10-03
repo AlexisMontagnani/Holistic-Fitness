@@ -13,7 +13,7 @@ export default function IndexPprofileSmallDevice() {
 
           <TitleAndSubTitleHomePage title={" Alexis Montagnani - Holistic Fitness"} subTitle={"Apprenez à vous entraîner comme vos héros et devenez-en un."}/>
             <NewButton
-              href={"/service"}
+              href={"/services"}
               ariaLabel={"Test"}
               text={"Mes services"}
               width={"w-40"}

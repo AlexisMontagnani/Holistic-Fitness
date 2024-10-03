@@ -1,4 +1,5 @@
 import { Barlow } from "next/font/google";
+import 'react-toastify/dist/ReactToastify.css';
 import "./globals.css";
 import Footer from "./src/components/Footer/Index";
 import Header from "./src/components/Header/rendering/index";

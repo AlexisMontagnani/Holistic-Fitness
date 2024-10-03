@@ -1,5 +1,5 @@
-import TitleAndSubTitleOrtherPage from '../../../UI/TitleAndSubTitle-OrtherPage'
-import Form from './Index-Form'
+import TitleAndSubTitleOrtherPage from '../../../UI/TitleAndSubTitle-OrtherPage';
+import Form from '../logic/Index-Form-Logic';
 export default function Index() {
   return (
     <section  className="p-4 xl:w-4/5 mx-auto mb-10">

@@ -1,4 +1,4 @@
-const services = [
+const servicesArray = [
   {
     id: 1,
     title: "Perte de poids",
@@ -59,4 +59,4 @@ const services = [
 
 ]
 
-export default services;
+export default servicesArray;

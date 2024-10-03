@@ -4,7 +4,6 @@ export default function NewButtonModale({
   ariaLabel,
   handleClick,
   dataId,
-  width,
 }) {
   return (
     <button

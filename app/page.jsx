@@ -1,4 +1,4 @@
-import Homepage from "./src/components/Main/Homepage/rendering/Index";
+import Homepage from "./src/components/Main/HomePage/rendering/Index";
 export default function Home() {
   return (
     <div>

@@ -2,12 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  background-color:#0c0700 ;
-  color: #fff;
+:root{
+  --background-Black: #0c0700;
+  --background-White: #fff;
+  --color-White: #f0ecde;
+  --color-Black: #0c0700;
 }
 
-.title-gradient {
+body {
+  background-color:var(--background-White);
+  color: var(--color-Black);
+}
+
+/* .title-gradient {
   background: linear-gradient(90deg, rgba(254,243,224,1) 0%, rgba(253,222,173,1) 18%, rgba(250,188,91,1) 43%, rgba(250,188,91,1) 77%);  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+} */
+.title-gradient {
+  background: linear-gradient(90deg, rgb(118, 75, 1) 0%, rgb(172, 128, 62) 18%, rgb(222, 185, 126) 43%, rgba(250,188,91,1) 77%);  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

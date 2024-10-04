@@ -1,4 +1,5 @@
 export default class Control {
+  
   static isValidEmail(email) {
     if (typeof email !== 'string') {
       throw new TypeError("L'email n'est pas valide");

@@ -2,7 +2,7 @@ import { Barlow } from "next/font/google";
 import 'react-toastify/dist/ReactToastify.css';
 import "./globals.css";
 import Footer from "./src/components/Footer/Index";
-import Header from "./src/components/Header/rendering/index";
+import Header from "./src/components/Header/NavigationBar/rendering/Index";
 
 const barlow = Barlow({
   subsets: ["latin"],

@@ -13,9 +13,12 @@ export default function Idex() {
         }
       />
 
+      <div className="flex flex-col gap-10">
+
       <AboutPresentation specialty={specialty}/>
 
       <AboutCardExperience experiences={experiences}/>
+      </div>
     </div>
   );
 }

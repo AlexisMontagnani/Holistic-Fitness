@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { CloseMenuLogo, FacebookLogo, HolisticFitnessLogoBlack, InstagramLogo } from "../../UI/Icons";
+import { CloseMenuLogo, FacebookLogo, HolisticFitnessLogoBlack, InstagramLogo } from "../../../UI/Icons";
 export default function NavigationBarSmallDeviceLateralMenu({activeMenu, handleClickMenu, navigationLinks}) {
   return (
     <div
@@ -15,7 +15,7 @@ export default function NavigationBarSmallDeviceLateralMenu({activeMenu, handleC
         expanded={activeMenu}
       />
     </div>
-    <ul className="flex flex-col gap-4 font-semibold">
+    <ul className="flex flex-col gap-4">
       {navigationLinks.map((link, index) => (
         <li key={index} className="p-2 text-xl">
           <Link href={link.url} aria-label={link.aria}>{link.name}</Link>

@@ -1,9 +1,8 @@
-import { AlexisImage } from "../../../UI/Images";
-
+import PresentationImageWithStyle from "./Index-Presentation-ImageWithStyle";
 export default function IndexPresentation({ specialty }) {
   return (
-    <section className="flex w-full sm:flex-col-reverse lg:flex-row gap-20 items-center mb-10">
-      <div className="flex flex-col gap-6 lg:w-[60%]">
+    <section className="flex w-full sm:flex-col-reverse lg:flex-row lg:gap-40 gap-10 items-center mb-10">
+      <div className="flex flex-col gap-6 lg:w-[60%] xl:p-4">
         <h3 className="text-xl text-primary font-bold">
         Au-delà d&apos;un métier, une passion.
         </h3>
@@ -42,9 +41,7 @@ export default function IndexPresentation({ specialty }) {
           ))}
         </div>
       </div>
-      <div className="hidden sm:flex w-[50%] lg:w-[40%] rounded-xl">
-        <AlexisImage />
-      </div>
+      <PresentationImageWithStyle />
     </section>
   );
 }

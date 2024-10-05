@@ -1,8 +1,8 @@
 import BackgroundBlur from "../../../UI/BackgroundBlur";
 import TitleAndSubTitleOrtherPage from "../../../UI/TitleAndSubTitle-OrtherPage";
 
-import ServiceCard from "./Index-Card";
-import ServiceModale from "./Index-Modale";
+import ServiceCard from "./ServiceCard";
+import ServiceModale from "./ServiceModale";
 
 export default function Index({
   handleClick,

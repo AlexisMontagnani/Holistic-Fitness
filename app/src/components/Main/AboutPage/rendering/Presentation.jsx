@@ -1,5 +1,5 @@
-import PresentationImageWithStyle from "./Index-Presentation-ImageWithStyle";
-export default function IndexPresentation({ specialty }) {
+import PresentationImageWithStyle from "./Presentation-ImageWithStyle";
+export default function Presentation({ specialty }) {
   return (
     <section className="flex w-full sm:flex-col-reverse lg:flex-row lg:gap-40 gap-10 items-center mb-10">
       <div className="flex flex-col gap-6 lg:w-[60%] xl:p-4">

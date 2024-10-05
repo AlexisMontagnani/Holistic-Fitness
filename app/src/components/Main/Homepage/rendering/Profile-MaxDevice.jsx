@@ -1,8 +1,8 @@
 import TitleAndSubTitleHomePage from "../../../UI/TitleAndSubTitle-HomePage";
 import CommentGoogle from "./GoogleComments/Index";
-import PresentationCard from "./Presentation/Index";
+import PresentationCard from "./Profile-PresentationCard";
 // MD => Max Device
-export default function IndexProfileMaxDevice() {
+export default function ProfileMaxDevice() {
   return (
     <div className="hidden lg:flex flex-col p-4 w-4/5 m-auto gap-10 justify-center">
       <section className="flex flex-col gap-10">

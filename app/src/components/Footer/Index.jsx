@@ -1,7 +1,7 @@
 import Link from "next/link";
 import adress from "../../data/adress";
 import { FacebookLogo, InstagramLogo } from "../UI/Icons";
-export default function FooterBar() {
+export default function Index() {
   return (
     <footer>
       <div className="bg-primary p-4 text-blackContrast">

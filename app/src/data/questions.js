@@ -13,6 +13,21 @@ const questions = [
     id: 3,
     question: "Je voudrais une préparation sportive adaptée à mes besoins, comment faire ?",
     response: "Pour obtenir une préparation sportive adaptée à vos besoins, il est recommandé de consulter un professionnel du sport comme moi. Je pourrai vous aider à établir un programme d'entraînement personnalisé en fonction de vos objectifs et de votre condition physique."
+  },
+  {
+    id: 4,
+    question: "Je voudrais une préparation sportive adaptée à mes besoins, comment faire ?",
+    response: "Pour obtenir une préparation sportive adaptée à vos besoins, il est recommandé de consulter un professionnel du sport comme moi. Je pourrai vous aider à établir un programme d'entraînement personnalisé en fonction de vos objectifs et de votre condition physique."
+  },
+  {
+    id: 5,
+    question: "Je voudrais une préparation sportive adaptée à mes besoins, comment faire ?",
+    response: "Pour obtenir une préparation sportive adaptée à vos besoins, il est recommandé de consulter un professionnel du sport comme moi. Je pourrai vous aider à établir un programme d'entraînement personnalisé en fonction de vos objectifs et de votre condition physique."
+  },
+  {
+    id: 6,
+    question: "Je voudrais une préparation sportive adaptée à mes besoins, comment faire ?",
+    response: "Pour obtenir une préparation sportive adaptée à vos besoins, il est recommandé de consulter un professionnel du sport comme moi. Je pourrai vous aider à établir un programme d'entraînement personnalisé en fonction de vos objectifs et de votre condition physique."
   }
 ];
 

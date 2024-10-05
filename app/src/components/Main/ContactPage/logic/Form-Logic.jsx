@@ -2,11 +2,11 @@
 
 import ApiService from "@/app/src/services/apiService";
 import { SubmitContactForm } from "../../../../usecases/submitContactForm";
-import IndexForm from "../redering/Index-Form";
+import IndexForm from "../redering/Form";
 
 import { useState } from "react";
 
-export default function IndexFormLogic() {
+export default function FormLogic() {
   const [formData, setFormData] = useState({
     lastName: "",
     firstName: "",

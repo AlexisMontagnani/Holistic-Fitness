@@ -1,5 +1,5 @@
 import NewButtonModale from "../../../UX/NewButtonModale";
-export default function IndexCard({ service, handleClick }) {
+export default function ServiceCard({ service, handleClick }) {
   return (
     <div className="border border-primary p-6 rounded-2xl w-full sm:max-w-80 flex flex-col">
       <h1 className="font-bold text-center text-xl mb-8">{service.title}</h1>

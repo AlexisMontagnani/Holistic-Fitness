@@ -1,5 +1,5 @@
 import { DiplomaIcon } from "../../../UI/Icons";
-export default function IndexCardExperience({ experiences }) {
+export default function CardExperience({ experiences }) {
   return (
     <section className="flex flex-col gap-6">
       <h3 className="flex text-xl relative text-primary font-bold mb-4 m-auto">

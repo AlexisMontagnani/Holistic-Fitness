@@ -1,6 +1,6 @@
 import { StarIcon } from "../../../../UI/Icons";
 
-export default function IndexCard({ card }) {
+export default function CommentaryGoogleCard({ card }) {
   return (
     // <div className="flex flex-col gap-4 bg-[#fffdf6] p-4 text-blackContrast w-full rounded-xl">
     //   <div className="flex flex-col gap-2">

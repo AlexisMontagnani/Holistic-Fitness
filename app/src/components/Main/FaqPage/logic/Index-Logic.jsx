@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import QuesitonsRendering from '../rendering/Index';
+import Index from '../rendering/Index';
 export default function IndexLogic() {
   const [activeQuestion, setActiveQuestion] = useState(null);
 
@@ -8,6 +8,6 @@ export default function IndexLogic() {
     setActiveQuestion((prevActive) => (prevActive === id ? null : id));
   };
   return (
-    <QuesitonsRendering handleClick={handleClick} activeQuestion={activeQuestion}/>
+    <Index handleClick={handleClick} activeQuestion={activeQuestion}/>
   )
 }

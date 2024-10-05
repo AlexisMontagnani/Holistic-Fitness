@@ -1,5 +1,5 @@
-import NewButton from "../../../../UX/NewButton";
-export default function Index() {
+import NewButton from "../../../UX/NewButton";
+export default function ProfilePresentationCard() {
   return (
     <div className="flex border border-primary rounded-2xl lg:w-2/4 p-6 flex-col gap-6">
       <h3 className="font-bold text-center text-lg">Qui suis-je ?</h3>

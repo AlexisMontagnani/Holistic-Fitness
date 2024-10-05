@@ -1,8 +1,8 @@
 import experiences from "../../../../data/experiences";
 import specialty from "../../../../data/specialty";
 import TitleAndSubTitleOrtherPage from "../../../UI/TitleAndSubTitle-OrtherPage";
-import AboutCardExperience from "./Index-CardExperience";
-import AboutPresentation from "./Index-Presentation";
+import CardExperience from "./CardExperience";
+import Presentation from "./Presentation";
 export default function Idex() {
   return (
     <div className="flex flex-col px-6 pb-6 sm:w-[90%] md:w-3/4 sm:mx-auto lg:w-4/5 2xl:w-3/5 m-auto justify-center mb-10">
@@ -15,9 +15,9 @@ export default function Idex() {
 
       <div className="flex flex-col gap-10">
 
-      <AboutPresentation specialty={specialty}/>
+      <Presentation specialty={specialty}/>
 
-      <AboutCardExperience experiences={experiences}/>
+      <CardExperience experiences={experiences}/>
       </div>
     </div>
   );

@@ -1,5 +1,5 @@
 import { Barlow } from "next/font/google";
-import 'react-toastify/dist/ReactToastify.css';
+import "react-toastify/dist/ReactToastify.css";
 import "./globals.css";
 import Footer from "./src/components/Footer/Index";
 import Header from "./src/components/Header/NavigationBar/rendering/Index";
@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
       <body className={`${barlow.className}`}>
         <Header />
 
-        <main>{children}</main>
+        <main className="min-h-lvh">{children}</main>
 
         <Footer />
       </body>

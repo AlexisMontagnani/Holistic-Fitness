@@ -1,13 +1,13 @@
-import MDHomeProfile from "./Index-profile-MaxDevice";
-import SDHomeProfile from "./Index-profile-SmallDivice";
+import ProfileMaxDevice from "./Profile-MaxDevice";
+import ProfileSmallDivice from "./Profile-SmallDivice";
 export default function Index() {
   return (
     <section className="mb-10">
       {/* SD => Small Device */}
-      <SDHomeProfile />
+      <ProfileSmallDivice />
 
       {/* MD => Max Device */}
-      <MDHomeProfile />
+      <ProfileMaxDevice />
     </section>
   );
 }

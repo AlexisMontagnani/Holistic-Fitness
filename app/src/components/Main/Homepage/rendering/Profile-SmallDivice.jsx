@@ -1,9 +1,9 @@
 import TitleAndSubTitleHomePage from "../../../UI/TitleAndSubTitle-HomePage";
 import NewButton from "../../../UX/NewButton";
 import CommentGoogle from "./GoogleComments/Index";
-import PresentationCard from "./Presentation/Index";
+import PresentationCard from "./Profile-PresentationCard";
 // SD => Small Device
-export default function IndexPprofileSmallDevice() {
+export default function ProfileSmallDevice() {
   return (
     <div className="lg:hidden flex flex-col gap-12 px-4 pb-4 sm:w-[90%] md:w-3/4 sm:m-auto">
       <section className="flex flex-col gap-8">

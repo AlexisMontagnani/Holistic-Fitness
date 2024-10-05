@@ -1,5 +1,5 @@
 import { AlexisImage } from '../../../UI/Images'
-export default function IndexPresentationImageWithStyle() {
+export default function PresentationImageWithStyle() {
   return (
     <div className="hidden sm:flex sm:relative w-[50%] lg:w-[40%] rounded-xl p-10 lg:p-0 xl:p-10">
     <div className="absolute h-3/4 w-2/6 top-0 left-0 lg:-top-10 lg:-left-10 xl:-top-0 -z-10 xl:-left-0 bg-primary opacity-30 rounded-xl"></div>

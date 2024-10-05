@@ -4,7 +4,7 @@ import servicesArray from "@/app/src/data/services";
 import RequireInput from "../../../UI/RequireInput";
 import SubmitButton from "../../../UX/SubmitButton";
 
-export default function IndexForm({
+export default function Form({
   handleSubmit,
   handleChange,
   formData = {},

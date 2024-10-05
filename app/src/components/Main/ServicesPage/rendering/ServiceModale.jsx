@@ -1,7 +1,7 @@
 import { CloseMenuLogo } from "../../../UI/Icons";
 import NewButton from "../../../UX/NewButton";
 
-export default function IndexModale({
+export default function ServiceModale({
   openModale,
   handleClick,
   serviceSelected,

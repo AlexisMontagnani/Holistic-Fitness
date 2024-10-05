@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import servicesArray from "../../../../data/services";
-import ServicesRendering from "../rendering/Index";
+import Index from "../rendering/Index";
 export default function IndexLogic() {
   const [openModale, setOpenModale] = useState(false);
   const [serviceSelected, setServiceSelected] = useState(null);
@@ -14,7 +14,7 @@ export default function IndexLogic() {
     setOpenModale(!openModale);
   };
   return (
-    <ServicesRendering
+    <Index
       handleClick={handleClick}
       openModale={openModale}
       serviceSelected={serviceSelected}

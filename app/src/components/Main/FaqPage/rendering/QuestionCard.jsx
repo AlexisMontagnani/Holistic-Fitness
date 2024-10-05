@@ -1,6 +1,6 @@
 import { ArrowRightIcon } from "../../../UI/Icons";
 
-export default function IndexCard({ question, handleClick, open }) {
+export default function QuestionCard({ question, handleClick, open }) {
   return (
     <div className={`p-4 flex gap-4 items-start`}>
       <div className={`${open ? "rotate-90" : "rotate-0"} transition-all duration-200 flex`}>

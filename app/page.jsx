@@ -1,8 +1,8 @@
-import Homepage from "./src/components/Main/HomePage/rendering/Index";
+import HomePage from "./src/components/Main/HomePage/rendering/Index";
 export default function Home() {
   return (
     <div>
-      <Homepage></Homepage>
+      <HomePage></HomePage>
     </div>
   );
 }

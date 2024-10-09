@@ -1,5 +1,5 @@
-import IamgeFromAlexis from "@/public/Images/Alexis.jpg";
 import Image from "next/image";
+import IamgeFromAlexis from "../../../../public/images/Alexis.jpg";
 const AlexisImage = () => {
   return (
     <Image

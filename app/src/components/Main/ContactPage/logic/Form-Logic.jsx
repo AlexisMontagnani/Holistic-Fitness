@@ -13,6 +13,7 @@ export default function FormLogic() {
     email: "",
     tel: "",
     service: "",
+    ortherObject: "",
     message: "",
   });
 

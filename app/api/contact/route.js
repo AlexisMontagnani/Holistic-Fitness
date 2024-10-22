@@ -6,7 +6,8 @@ export async function POST(request) {
     firstName,
     email,
     tel,
-    service,
+    object,
+    ortherObject,
     message,
   } = await request.json();
 
@@ -19,13 +20,15 @@ export async function POST(request) {
       Prénom: ${firstName}
       Email: ${email}
       Téléphone: ${tel}
-      Type de programme/service: ${service}
+      Type de programme/service: ${object}
+      Autre demande: ${ortherObject}
       Message: ${message} `,
     html: `<p><strong>Nom</strong> : ${lastName}</p>
     <p><strong>Prénom</strong> : ${firstName}</p>
     <p><strong>Email</strong> : ${email}</p>
     ${tel ? `<p><strong>Téléphone</strong> : ${tel}</p>` : ""}
-    ${service ? `<p><strong>Programme sélectionné</strong> : ${service}</p>` : ""}
+    ${object ? `<p><strong>Programme sélectionné</strong> : ${object}</p>` : ""}
+    ${ortherObject ? `<p><strong>Autre demande</strong> : ${ortherObject}</p>` : ""}
     <p><strong>Message</strong> : ${message}</p>`,
   };
 

@@ -74,13 +74,13 @@ export default function Form({
           </div>
         </div>
         <div className="flex flex-col gap-2">
-          <label htmlFor="service">Programme / Service :</label>
+          <label htmlFor="service">Objet :</label>
           <select
-            name="service"
-            id="service"
+            name="object"
+            id="object"
             className="text-blackContrast p-2 border border-blackContrast rounded-xl"
             onChange={handleChange}
-            value={formData.service}
+            value={formData.object}
           >
             <option value="" className="text-blackContrast "></option>
             {servicesArray.map((service) => (
@@ -93,6 +93,18 @@ export default function Form({
               </option>
             ))}
           </select>
+        </div>
+
+        <div className="flex flex-col gap-2">
+          <label htmlFor="service">Autre demande :</label>
+          <input
+              type="test"
+              name="ortherObject"
+              id="ortherObject"
+              className={`p-2 text-blackContrast border border-blackContrast rounded-xl`}
+              onChange={handleChange}
+              value={formData.ortherObject}
+            />
         </div>
 
         <div className="flex flex-col gap-2">

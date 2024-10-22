@@ -1,6 +1,7 @@
 import TitleAndSubTitleHomePage from "../../../UI/TitleAndSubTitle-HomePage";
 import CommentGoogle from "./GoogleComments/Index";
 import PresentationCard from "./Profile-PresentationCard";
+
 // MD => Max Device
 export default function ProfileMaxDevice() {
   return (

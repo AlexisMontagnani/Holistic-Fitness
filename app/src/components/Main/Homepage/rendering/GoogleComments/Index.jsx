@@ -1,5 +1,6 @@
 import googleComments from "../../../../../data/googleComments";
 import CommentaryGoogleCard from "./CommentaryGoogleCard";
+
 export default function Index() {
   return (
     <div className="flex flex-col gap-4">

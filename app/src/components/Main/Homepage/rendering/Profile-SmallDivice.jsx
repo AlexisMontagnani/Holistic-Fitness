@@ -2,6 +2,7 @@ import TitleAndSubTitleHomePage from "../../../UI/TitleAndSubTitle-HomePage";
 import NewButton from "../../../UX/NewButton";
 import CommentGoogle from "./GoogleComments/Index";
 import PresentationCard from "./Profile-PresentationCard";
+
 // SD => Small Device
 export default function ProfileSmallDevice() {
   return (

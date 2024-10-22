@@ -23,7 +23,7 @@ export class SubmitContactForm {
         return;
       }
 
-      if (!Control.isValidPhone(formData.tel)) {
+      if (!Control.isValidPhone(formData.tel) && formData.tel !== "") {
         toast.error("Le numéro de téléphone n'est pas valide.");
         return;
       }

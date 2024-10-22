@@ -131,6 +131,7 @@ const ArrowRightIcon = ({ size, color, handleClick }) => {
     </button>
   );
 };
+
 export {
   ArrowRightIcon,
   BurgerMenuLogo,

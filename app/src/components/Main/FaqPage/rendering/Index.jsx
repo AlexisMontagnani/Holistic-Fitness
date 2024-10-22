@@ -1,8 +1,8 @@
 "use client";
+
 import questions from "../../../../data/questions";
 import TitleAndSubTitleOrtherPage from "../../../UI/TitleAndSubTitle-OrtherPage";
 import QuestionCard from "./QuestionCard";
-
 
 export default function Index({handleClick, activeQuestion}) {
 

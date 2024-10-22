@@ -1,4 +1,5 @@
 import NewButtonModale from "../../../UX/NewButtonModale";
+
 export default function ServiceCard({ service, handleClick }) {
   return (
     <div className="border border-primary p-6 rounded-2xl w-full sm:max-w-80 flex flex-col">

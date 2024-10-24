@@ -9,7 +9,8 @@ export default function Index() {
         subTitle={"Vous avez décidez de vous prendre en main alors vous êtes au bon endroit."}
       />
 
-      <p className='mb-4'>Si vous souhaitez me contacter au d&apos;un programme personnalisé, veuillez indiquer le service qui vous intéresse. N&apos;hésitez pas à me contacter pour davantage de renseignements.</p>
+      <p className='mb-4'>Pour tous renseignements, remplissez le formulaire ci-dessous, je vous
+      recontacterai dans les plus brefs délais.</p>
       <Form />
 
     </section>

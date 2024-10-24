@@ -96,18 +96,6 @@ export default function Form({
         </div>
 
         <div className="flex flex-col gap-2">
-          <label htmlFor="service">Autre demande :</label>
-          <input
-              type="test"
-              name="ortherObject"
-              id="ortherObject"
-              className={`p-2 text-blackContrast border border-blackContrast rounded-xl`}
-              onChange={handleChange}
-              value={formData.ortherObject}
-            />
-        </div>
-
-        <div className="flex flex-col gap-2">
           <label htmlFor="message">
             Message : <RequireInput />
           </label>

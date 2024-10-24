@@ -6,7 +6,7 @@ export default function ServiceCard({ service, handleClick }) {
       <h1 className="font-bold text-center text-xl mb-8">{service.title}</h1>
 
       <p className="mb-6">
-        <span className="font-bold">Catégorie :</span> {service.category}
+         {service.presentation}
       </p>
 
       <div className="flex flex-col gap-4 mb-8 text-justify">

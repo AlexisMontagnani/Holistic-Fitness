@@ -2,6 +2,7 @@ const servicesArray = [
   {
     id: 1,
     title: "Suivis personnalisé en ligne",
+    img: "/assets/images/personalized_follow.jpeg",
     presentation:
       "Programme entièrement personnalisé, dispensé via l’application Coach RX (Android &amp; IOS) : il sera établi en fonction de vos contraintes actuelles (objectifs, emploi du temps, antécédents de blessure, matériel disponible, habitudes alimentaires actuelles, préférences, etc.) + journal d’entrainement inclus dans l’application pour un suivi des performances en toute simplicité",
     details:
@@ -28,6 +29,7 @@ const servicesArray = [
   {
     id: 2,
     title: "Suivi personnalisé en présentiel",
+    img: "/assets/images/face_to_face.jpeg",
     presentation:
       "Programme entièrement personnalisé, dispensé via l’application Coach RX (Android &amp; IOS) : il sera établi en fonction de vos contraintes actuelles (objectifs, emploi du temps, antécédents de blessure, matériel disponible, habitudes alimentaires actuelles, préférences, etc.) + journal d’entrainement inclus dans l’application pour un suivi des performances en toute simplicité.",
     details:
@@ -63,6 +65,7 @@ const servicesArray = [
   {
     id: 3,
     title: "Programme d’entrainement personnalisé sans suivi",
+    img: "/assets/images/personalized_training.jpeg",
     presentation: "Programme entièrement personnalisé, dispensé via l’application Coach RX (Android &amp; IOS) : il sera établi en fonction de vos contraintes actuelles (objectifs, emploi du temps, antécédents de blessure, matériel disponible, habitudes alimentaires actuelles, préférences, etc.)",
     details:
       "Les programmes personnalisés sans suivi s’adressent aux pratiquants possédant déjà un bagage en musculation (6 mois minimum), mais manquant d’un plan d’entrainement clair pour atteindre leurs objectifs.",

@@ -5,13 +5,13 @@ import { CgArrowRightO } from "react-icons/cg";
 import { FaStar } from "react-icons/fa";
 import { GiDiploma, GiMuscleUp } from "react-icons/gi";
 import { IoClose, IoMenu } from "react-icons/io5";
-import holisticFitnessLogoBlack from "../../../../public/icons/holistic-fitness-black.svg";
-import holisticFitnessLogoBlackAndYellow from "../../../../public/icons/holistic-fitness-BlackAndYellow.svg";
-import holisticFitnessLogo from "../../../../public/icons/holistic-fitness.svg";
-import instagramLogo from "../../../../public/icons/instagram.svg";
+import holisticFitnessLogoBlack from "../../../../public/assets/icons/holistic-fitness-black.svg";
+import holisticFitnessLogoBlackAndYellow from "../../../../public/assets/icons/holistic-fitness-BlackAndYellow.svg";
+import holisticFitnessLogo from "../../../../public/assets/icons/holistic-fitness.svg";
+import instagramLogo from "../../../../public/assets/icons/instagram.svg";
 import { homeLink } from "../../constants/navigationLinks";
 import socialLinks from "../../constants/socialLinks";
-import facebookLogo from "/public/icons/facebook.svg";
+import facebookLogo from "/public/assets/icons/facebook.svg";
 
 const HolisticFitnessLogo = ({ width, height }) => {
   return (

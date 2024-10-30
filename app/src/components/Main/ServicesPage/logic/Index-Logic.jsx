@@ -8,7 +8,6 @@ export default function IndexLogic() {
   const [openModale, setOpenModale] = useState(false);
   const [serviceSelected, setServiceSelected] = useState(null);
   const handleClick = (e) => {
-    console.log("click");
     const buttonServiceClicked = e.target.getAttribute("data-id");
     setServiceSelected(
       servicesArray.find((service) => service.id === parseInt(buttonServiceClicked))

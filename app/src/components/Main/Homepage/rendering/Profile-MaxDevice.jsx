@@ -10,7 +10,7 @@ export default function ProfileMaxDevice() {
         <TitleAndSubTitleHomePage title={" Alexis Montagnani - Coach Sportif"} subTitle={"Une approche holistique du corps, de la santé et de la performance"}/>
        
         <div className="flex flex-col sm:flex-row items-center gap-10 mb-10 justify-center">
-          <div className="rounded-full bg-profile bg-cover shadow-inner-2xl shadow-whiteContrast mb-6 w-80 h-80" aria-hidden="true"></div>
+          <div className="rounded-xl bg-profile bg-cover  w-80 h-80" aria-hidden="true"></div>
           <PresentationCard />
         </div>
       </section>

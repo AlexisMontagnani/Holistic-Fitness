@@ -1,7 +1,5 @@
-import experiences from "../../../../data/experiences";
 import specialty from "../../../../data/specialty";
 import TitleAndSubTitleOrtherPage from "../../../UI/TitleAndSubTitle-OrtherPage";
-import CardExperience from "./CardExperience";
 import Presentation from "./Presentation";
 
 export default function Idex() {
@@ -18,7 +16,7 @@ export default function Idex() {
 
       <Presentation specialty={specialty}/>
 
-      <CardExperience experiences={experiences}/>
+      {/* <CardExperience experiences={experiences}/> */}
       </div>
     </div>
   );

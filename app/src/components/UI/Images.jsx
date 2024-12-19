@@ -1,10 +1,10 @@
 import Image from "next/image";
-import IamgeFromAlexis from "../../../../public/assets/images/home.jpeg";
+import ImageFromAlexis from "../../../../public/assets/images/home.jpeg";
 import AboutImage from "../../../../public/assets/images/who.jpeg";
 const AlexisImage = () => {
   return (
     <Image
-      src={IamgeFromAlexis}
+      src={ImageFromAlexis}
       width={600}
       height={600}
       alt="Photo de Alexis Montagnani - Coach sportif"

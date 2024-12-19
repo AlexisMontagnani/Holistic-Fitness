@@ -1,5 +1,5 @@
 const speciality = [
-  "#Street Workout", "#Powerlifting", "#Weightlifting", "#Calisthenics", "#Gymnastics", "#Running"
+  "#Hypertrophie", "#Force", "#Callisthénie", "#Course à pied"
 ]
 
 export default speciality;

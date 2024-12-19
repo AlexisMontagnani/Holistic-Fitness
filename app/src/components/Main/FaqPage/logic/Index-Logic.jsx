@@ -1,6 +1,9 @@
 "use client";
+
 import { useState } from "react";
+
 import Index from '../rendering/Index';
+
 export default function IndexLogic() {
   const [activeQuestion, setActiveQuestion] = useState(null);
 

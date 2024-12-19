@@ -13,7 +13,7 @@ module.exports = {
       "whiteContrast": "#FFFFFF",
     },
     backgroundImage: {
-      'profile': "url('/images/Alexis.jpg')",
+      'profile': "url('/assets/images/home.jpeg')",
       },
       boxShadow: {
         'inner-2xl': 'inset 0 0 25px 15px rgba(0, 0, 0, 0.25)',

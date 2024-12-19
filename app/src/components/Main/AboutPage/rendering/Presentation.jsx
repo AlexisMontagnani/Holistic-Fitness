@@ -1,33 +1,34 @@
 import PresentationImageWithStyle from "./Presentation-ImageWithStyle";
+
 export default function Presentation({ specialty }) {
   return (
     <section className="flex w-full sm:flex-col-reverse lg:flex-row lg:gap-40 gap-10 items-center mb-10">
       <div className="flex flex-col gap-6 lg:w-[60%] xl:p-4">
-        <h3 className="text-xl text-primary font-bold">
-        Au-delà d&apos;un métier, une passion.
-        </h3>
+        <h3 className="text-xl text-primary font-bold">Mon approche</h3>
 
         <p className="text-justify">
-          Titulaire d&apos;un Master STAPS spécialité Entraînement, Performance
-          et Intervention ainsi que du CAPEPS je suis coach et enseignant au
-          STAPS. J&apos;ai également pratiqué des sports de combat et techniques
-          d&apos;auto-défense (boxe française, krav maga).
+          Depuis l’obtention de mon diplôme, j’ai continué de me former afin de
+          pouvoir élargir mon champ d’action et proposer à mes coachés un
+          accompagnement global sur différents points cruciaux : la nutrition,
+          l’entrainement, la récupération, et le mindset.
         </p>
 
         <p className="text-justify">
-          Au cours de mes études j&apos;ai suivi des cours de préparation
-          mentale incluant des méthodes de relaxation de visualisation et de
-          méditation inspirés des techniques de pleine de conscience
-          (mindfulness). J’ai également pu réaliser une étude approfondie visant
-          à démontrer l’impact positif de l’activité sportive sur le stress et
-          la dépression.
+          J’ai à cœur que chaque personne travaillant avec moi puisse faire
+          l’expérience d’un corps en pleine santé capable de tout.
         </p>
 
         <p className="text-justify">
-          De plus j&apos;accorde aussi de l&apos;importance à la qualité de
-          l&apos;alimentation. La nutrition a en effet une place prépondérante
-          dans la pratique sportive et de façon plus globale, elle participe au
-          bien-être et à l&apos;équilibre personnel.
+          Que votre objectif soit d’avoir une meilleure composition corporelle
+          (perte de masse graisseuse, prise de masse musculaire), de gagner en
+          force, en explosivité, en endurance cardio-vasculaire, d’apprendre des
+          mouvements de callisthénie, en bref d’améliorer votre fitness de
+          manière holistique, ma méthode est alors celle qu’il vous faut !
+        </p>
+        <p className="text-justify">
+          Vous pouvez travailler avec moi directement au sein du club Basic Fit
+          d’Artigues- près-Bordeaux, mais aussi en ligne, via un suivi
+          personnalisé ou un programme d’entrainement.
         </p>
 
         <div className="flex flex-wrap gap-2 md:gap-4">

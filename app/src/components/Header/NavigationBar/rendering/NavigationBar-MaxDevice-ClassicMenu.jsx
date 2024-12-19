@@ -1,5 +1,7 @@
 import { navigationLinks } from "@/app/src/constants/navigationLinks";
+
 import Link from "next/link";
+
 export default function NavigationBarMaxDeviceClassicMenu() {
   return (
     <div className="flex">

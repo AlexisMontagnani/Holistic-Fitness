@@ -29,7 +29,7 @@ const servicesArray = [
   {
     id: 2,
     title: "Suivi personnalisé en présentiel",
-    img: "/assets/images/face_to_face.jpeg",
+    img: "/assets/images/face_to_face.jpg",
     presentation:
       "Programme entièrement personnalisé, dispensé via l’application Coach RX (Android &amp; IOS) : il sera établi en fonction de vos contraintes actuelles (objectifs, emploi du temps, antécédents de blessure, matériel disponible, habitudes alimentaires actuelles, préférences, etc.) + journal d’entrainement inclus dans l’application pour un suivi des performances en toute simplicité.",
     details:
